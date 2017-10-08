@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 14, 2014, 8:06:08 AM
+    Author     : Hitesh Gupta
+*/
+
+input.menu{
+    background-color: black;
+    color:white;
+    text-transform:uppercase;
+    
+ 
+}
+table.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td.customers ,  th.customers {
+    font-size: 1em;
+    border: 1px solid #000000;
+    padding: 3px 7px 2px 7px;
+}
+
+ th.customers {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #000000;
+    color: #ffffff;
+}
+table.detail{
+    background-color: whitesmoke;
+    border: dotted 10px #006BB2;
+}
+td.detail{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: inherit;
+    
+}
+
+form.form{
+    height:auto;
+    width:auto;
+    background-color: whitesmoke;
+    border: 10px #006BB2 dotted;
+    margin-left: auto;
+}
+td.form{
+    text-transform: uppercase;
+}
+input.form{
+    padding: 3%;
+    
+    
+}
+h2.form{
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 5px 5px 5px #999999;
+            text-transform: uppercase;
+            }
+            
+            h2:hover.form{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            text-transform: uppercase;
+            -webkit-animation: myfirst 5s;
+            animation: myfirst 5s;
+            }
+            @-webkit-keyframes myfirst {
+            from {color:white;text-shadow:5px 5px 5px black;}
+            to {color: black;text-shadow:5px 5px 5px white;}
+            }
+            @keyframes myfirst {
+            from {color:white;text-shadow:5px 5px 5px black;}
+            to {color: black;text-shadow:5px 5px 5px white;}   
+            }
+            
+            img.logo{
+                height:90px;
+                width:90px; 
+                background: url(logo.png) 0 0;
+            }
+            marquee.font{
+                font-family: Arial, Helvetica, sans-serif;
+                display: inline;
+                color:white;
+                text-transform: uppercase;
+                background:#000000;
+                
+            }
+            h1.font{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            text-transform: uppercase;
+            }
+            h1:hover.font{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            text-transform: uppercase;
+            -webkit-animation: myfirst 5s;
+            animation: myfirst 5s;
+            }
+            @-webkit-keyframes myfirst {
+            from {color:white;text-shadow:5px 5px 5px black;}
+            to {color: black;text-shadow:5px 5px 5px white;}
+            }
+            @keyframes myfirst {
+            from {color:white;text-shadow:5px 5px 5px black;}
+            to {color: black;text-shadow:5px 5px 5px white;}   
+            }
+            h3.font{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            text-transform: uppercase;
+            }
+            h4.font{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            color: whitesmoke;
+            font-style: italic;
+            }
+            ul.list{
+            
+            list-style-type: none;
+            padding: 0%;
+            border:1px solid black;
+            }
+            li.list{
+            color:black;
+            background-color: black;
+            text-align: center;
+            padding: 2%;
+            border:1px solid black;   
+            }
+            a.list{
+            color:#999999;
+            font-size:100%;
+            font-style: normal;
+            text-align: right;
+            text-decoration:none;
+            text-transform: uppercase;
+            }
+            a:hover.list{
+            color:#000000;
+            font-size-adjust:100%;
+            font-style: normal;
+            text-align: right;
+            text-decoration:none;
+            text-transform: uppercase;
+            }
+            li:hover.list{
+            color:black;
+            background-color: white;
+            text-align: center;
+            padding: 2%;
+            border:1px solid black;   
+            }
+            li.head{
+            color:black;
+            background-color: whitesmoke;
+            text-align: center;
+            padding: 2%;
+            border:1px solid black;   
+            }
+            a.head{
+            color:#000000;
+            font-size-adjust:150%;
+            font-style: normal;
+            text-align: right;
+            text-decoration:none;
+            text-transform: uppercase;
+            }
+            
